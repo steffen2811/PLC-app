@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PLCAPP.App">
+
+    <AbsoluteLayout>
+        <Button x:Name="Button"
+                  Text="Bestil"
+                  Clicked="b_Ordre" 
+                  AbsoluteLayout.LayoutBounds=".8,.95,100,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  FontSize="Medium"
+                  />
+        <Button x:Name="LogOut"
+                  Text="Log ud"
+                  Clicked="b_Logout" 
+                  AbsoluteLayout.LayoutBounds=".2,.95,100,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  FontSize="Medium"
+                  />
+        <Label x:Name="welcome"
+                  Text="Loading" 
+                  AbsoluteLayout.LayoutBounds=".5,.05,200,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  YAlign="Center" 
+                  XAlign="Center"
+                  FontSize="Large"
+                  />
+        <Label x:Name="Messages"
+                  AbsoluteLayout.LayoutBounds=".5,.8,200,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  YAlign="Center" 
+                  XAlign="Center"
+                  FontSize="Large"
+                  />
+        <Image Source="GulKings.jpg" 
+               AbsoluteLayout.LayoutBounds=".0,.2,130,65"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image Source="MGold.jpg" 
+               AbsoluteLayout.LayoutBounds=".0,.4,130,65"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image Source="PrinceR.jpg" 
+               AbsoluteLayout.LayoutBounds=".0,.6,130,65"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Button x:Name="GulKingsplus"
+                  Text="+"
+                  Clicked="b_GulKingsplus" 
+                  AbsoluteLayout.LayoutBounds=".4,.2,50,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  FontSize="Large"
+                  />
+        <Button x:Name="GulKingsminus"
+                  Text="-"
+                  Clicked="b_GulKingsminus" 
+                  AbsoluteLayout.LayoutBounds=".8,.2,50,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  FontSize="Large"
+                  />
+        <Label x:Name="GulKingsL"
+                  Text="0" 
+                  AbsoluteLayout.LayoutBounds=".6,.2,50,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  YAlign="Center" 
+                  XAlign="Center"
+                  FontSize="Large"
+                  />
+        <Button x:Name="MGoldplus"
+                  Text="+"
+                  Clicked="b_MGoldplus" 
+                  AbsoluteLayout.LayoutBounds=".4,.4,50,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  FontSize="Large"
+                  />
+        <Button x:Name="MGoldminus"
+                  Text="-"
+                  Clicked="b_MGoldminus" 
+                  AbsoluteLayout.LayoutBounds=".8,.4,50,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  FontSize="Large"
+                  />
+        <Label x:Name="MGoldL"
+                  Text="0" 
+                  AbsoluteLayout.LayoutBounds=".6,.4,50,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  YAlign="Center" 
+                  XAlign="Center"
+                  FontSize="Large"
+                  />
+        <Button x:Name="PrinceRplus"
+                  Text="+"
+                  Clicked="b_PrinceRplus" 
+                  AbsoluteLayout.LayoutBounds=".4,.6,50,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  FontSize="Large"
+                  />
+        <Button x:Name="PrinceRminus"
+                  Text="-"
+                  Clicked="b_PrinceRminus" 
+                  AbsoluteLayout.LayoutBounds=".8,.6,50,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  FontSize="Large"
+                  />
+        <Label x:Name="PrinceRL"
+                  Text="0" 
+                  AbsoluteLayout.LayoutBounds=".6,.6,50,50"
+                  AbsoluteLayout.LayoutFlags="PositionProportional"
+                  YAlign="Center" 
+                  XAlign="Center"
+                  FontSize="Large"
+                  />
+
+
+
+    </AbsoluteLayout>
+    
+</ContentPage>
